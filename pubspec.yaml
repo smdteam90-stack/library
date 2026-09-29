@@ -1,0 +1,29 @@
+name: content_library
+description: Personal Content Library MVP
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.3
+  receive_sharing_intent: ^1.8.1
+  path_provider: ^2.1.5
+  http: ^1.2.2
+  intl: ^0.20.3
+  url_launcher: ^6.3.1
+  share_plus: ^13.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

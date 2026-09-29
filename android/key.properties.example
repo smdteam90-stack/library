@@ -1,0 +1,10 @@
+# Copy this file to android/key.properties (same folder) and fill in your
+# own values. key.properties is in .gitignore and must never be committed
+# or pushed -- it is only for building release APKs on your own machine.
+# In GitHub Actions, this same file is generated automatically from
+# repository Secrets; you do not need to upload it there.
+
+storeFile=/absolute/path/to/reelbox-release.jks
+storePassword=your-keystore-password
+keyAlias=reelbox
+keyPassword=your-key-password
